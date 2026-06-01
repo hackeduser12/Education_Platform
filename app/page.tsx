@@ -52,7 +52,7 @@ export default function DashboardPage() {
                 fontWeight: 500,
               }}
             >
-              Student Dashboard
+              Learning Dashboard by Kartik Prajapati
             </p>
             <div
               style={{
