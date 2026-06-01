@@ -1,5 +1,5 @@
 import { createClient } from "@supabase/supabase-js";
-import WebSocket from "ws";
+// import WebSocket from "ws";
 
 export type Course = {
   id: string;
@@ -17,11 +17,11 @@ export function createSupabaseServerClient() {
     throw new Error("Missing Supabase environment variables");
   }
 
-  return createClient(supabaseUrl, supabaseKey, {
+  // return createClient(supabaseUrl, supabaseKey, {
     realtime: {
       transport: WebSocket,
     },
-  });
+  // });
 }
 
 export async function getCourses(): Promise<Course[]> {
