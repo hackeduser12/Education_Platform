@@ -5,12 +5,28 @@ import { Flame, CalendarDays } from "lucide-react";
 
 interface HeroTileProps {
   name?: string;
-  streak?: number;
+  // streak?: number;
+  courses?: number;
+
 }
 
-export default function HeroTile({ name = "Kartik", streak = 14 }: HeroTileProps) {
-  const greeting = "Good afternoon";
-  const displayDate = "Monday, June 1";
+export default function HeroTile({ name = "Kartik",/* streak  = 8*/ courses = 5 }: HeroTileProps) {
+  // const greeting = "Good afternoon";
+  // const displayDate = "Monday, June 1";
+  const hour = new Date().getHours();
+
+const greeting =
+  hour < 12
+    ? "Good Morning"
+    : hour < 18
+    ? "Good Afternoon"
+    : "Good Evening";
+
+const displayDate = new Date().toLocaleDateString("en-US", {
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+});
 
   return (
     <article
@@ -101,7 +117,7 @@ export default function HeroTile({ name = "Kartik", streak = 14 }: HeroTileProps
             fontSize: 14,
           }}
         >
-          You&apos;re on a roll — keep up the momentum today.
+         Track your courses, assignments, and learning progress in one place.
         </p>
       </div>
 
@@ -136,7 +152,8 @@ export default function HeroTile({ name = "Kartik", streak = 14 }: HeroTileProps
             color: "var(--accent-amber)",
           }}
         >
-          {streak} day streak
+          {/* {streak} day streak */}
+          {courses} active courses
         </span>
       </motion.div>
     </article>
