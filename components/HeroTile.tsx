@@ -9,9 +9,21 @@ interface HeroTileProps {
   courses?: number;
 }
 
-export default function HeroTile({ name = "Alex", /* streak = 14 */ courses = 5 }: HeroTileProps) {
-  const greeting = "Good afternoon";
-  const displayDate = "Monday, June 1";
+export default function HeroTile({ name = "Kartik", /* streak = 14 */ courses = 5 }: HeroTileProps) {
+  const hour = new Date().getHours();
+
+const greeting =
+  hour < 12
+    ? "Good Morning"
+    : hour < 18
+    ? "Good Afternoon"
+    : "Good Evening";
+
+const displayDate = new Date().toLocaleDateString("en-US", {
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+});
 
   return (
     <article

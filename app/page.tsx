@@ -75,7 +75,7 @@ export default function DashboardPage() {
 
           <BentoGrid>
             <div style={{ gridColumn: "span 2" }}>
-              <HeroTile name="Kartik" streak={8} />
+              <HeroTile name="Kartik" courses={5} />
             </div>
 
             <StatsRow />
