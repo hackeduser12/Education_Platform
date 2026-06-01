@@ -5,10 +5,11 @@ import { Flame, CalendarDays } from "lucide-react";
 
 interface HeroTileProps {
   name?: string;
-  streak?: number;
+  // streak?: number;
+  courses?: number;
 }
 
-export default function HeroTile({ name = "Alex", streak = 14 }: HeroTileProps) {
+export default function HeroTile({ name = "Alex", /* streak = 14 */ courses = 5 }: HeroTileProps) {
   const greeting = "Good afternoon";
   const displayDate = "Monday, June 1";
 
@@ -94,7 +95,7 @@ export default function HeroTile({ name = "Alex", streak = 14 }: HeroTileProps) 
           </span>{" "}
           👋
         </h1>
-        <p
+        {/* <p
           style={{
             marginTop: 8,
             color: "var(--text-secondary)",
@@ -102,7 +103,16 @@ export default function HeroTile({ name = "Alex", streak = 14 }: HeroTileProps) 
           }}
         >
           You&apos;re on a roll — keep up the momentum today.
-        </p>
+        </p> */}
+         <p
+  style={{
+    marginTop: 8,
+    color: "var(--text-secondary)",
+    fontSize: 14,
+  }}
+>
+  Track your courses, assignments, and learning progress in one place.
+</p>
       </div>
 
       {/* Streak badge */}
@@ -136,7 +146,8 @@ export default function HeroTile({ name = "Alex", streak = 14 }: HeroTileProps) 
             color: "var(--accent-amber)",
           }}
         >
-          {streak} day streak
+          {/* {streak} day streak */}
+          {courses} active courses
         </span>
       </motion.div>
     </article>
