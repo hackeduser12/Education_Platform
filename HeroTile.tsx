@@ -110,15 +110,24 @@ const displayDate = new Date().toLocaleDateString("en-US", {
           </span>{" "}
           👋
         </h1>
-        <p
+        {/* <p
           style={{
             marginTop: 8,
             color: "var(--text-secondary)",
             fontSize: 14,
           }}
         >
-         Track your courses, assignments, and learning progress in one place.
-        </p>
+          You&apos;re on a roll — keep up the momentum today.
+        </p> */}
+        <p
+  style={{
+    marginTop: 8,
+    color: "var(--text-secondary)",
+    fontSize: 14,
+  }}
+>
+  Track your courses, assignments, and learning progress in one place.
+</p>
       </div>
 
       {/* Streak badge */}
