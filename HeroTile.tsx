@@ -8,7 +8,7 @@ interface HeroTileProps {
   streak?: number;
 }
 
-export default function HeroTile({ name = "Alex", streak = 14 }: HeroTileProps) {
+export default function HeroTile({ name = "Kartik", streak = 14 }: HeroTileProps) {
   const greeting = "Good afternoon";
   const displayDate = "Monday, June 1";
 
