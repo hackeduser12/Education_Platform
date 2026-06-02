@@ -9,7 +9,7 @@ export default function StatsRow() {
       <StatTile
         label="Total Activity This Week"
         value="12.4"
-        sub="+2.1 from last week"
+        // sub="+2.1 from last week"
         icon={Clock}
         accentColor="var(--accent-cyan)"
       />
