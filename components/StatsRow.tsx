@@ -7,16 +7,16 @@ export default function StatsRow() {
   return (
     <>
       <StatTile
-        label="Hours This Week"
+        label="Total Activity This Week"
         value="12.4"
         sub="+2.1 from last week"
         icon={Clock}
         accentColor="var(--accent-cyan)"
       />
       <StatTile
-        label="Goals Met"
+        label="Overall Progress"
         value="7/10"
-        sub="70% completion rate"
+        sub="70% completed"
         icon={Target}
         accentColor="var(--accent-emerald)"
       />
