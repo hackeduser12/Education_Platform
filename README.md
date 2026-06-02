@@ -13,24 +13,10 @@ It helps users track courses, progress, and activity in a clean, responsive UI w
 
 ## 🚀 Live Demo
 
-👉 https://your-deployment-link.vercel.app
+👉 education-platform-10aokacfh-kartik-kumar-prajapati-s-projects.vercel.app
 
 ---
 
-## 📸 Screenshots
-
-> Replace these with actual screenshots from your project
-
-### Dashboard Home
-![Dashboard](https://via.placeholder.com/1200x600?text=Dashboard+Screenshot)
-
-### Course Progress
-![Courses](https://via.placeholder.com/1200x600?text=Courses+Progress+Screenshot)
-
-### Activity Feed
-![Activity](https://via.placeholder.com/1200x600?text=Activity+Feed+Screenshot)
-
----
 
 ## ⚙️ Tech Stack
 
@@ -119,7 +105,7 @@ lib/
 
 This project is deployed on **Vercel**
 
-👉 https://your-deployment-link.vercel.app
+👉 education-platform-10aokacfh-kartik-kumar-prajapati-s-projects.vercel.app
 
 To deploy yourself:
 1. Push repo to GitHub
