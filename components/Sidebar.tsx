@@ -85,7 +85,7 @@ export default function Sidebar() {
                 overflow: "hidden",
               }}
             >
-              LearnOS
+              Learning Platform
             </motion.span>
           )}
         </AnimatePresence>
