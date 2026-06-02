@@ -28,16 +28,16 @@ export function StatsRowBottom() {
   return (
     <>
       <StatTile
-        label="XP Earned"
-        value="2,840"
-        sub="Level 12 learner"
+        label="Points Achieved"
+        value="259"
+        // sub="Level 12 learner"
         icon={TrendingUp}
         accentColor="var(--accent-amber)"
       />
       <StatTile
-        label="Courses Done"
-        value="23"
-        sub="Since joining"
+        label="Completed Courses"
+        value="18"
+        sub="Till Now"
         icon={BookMarked}
         accentColor="var(--accent-rose)"
       />
