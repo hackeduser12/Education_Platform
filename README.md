@@ -13,7 +13,7 @@ It helps users track courses, progress, and activity in a clean, responsive UI w
 
 ## 🚀 Live Demo
 
-👉 education-platform-10aokacfh-kartik-kumar-prajapati-s-projects.vercel.app
+👉 (https://education-platform-puce.vercel.app/)
 
 ---
 
@@ -105,7 +105,7 @@ lib/
 
 This project is deployed on **Vercel**
 
-👉 education-platform-10aokacfh-kartik-kumar-prajapati-s-projects.vercel.app
+👉 (https://education-platform-puce.vercel.app/)
 
 To deploy yourself:
 1. Push repo to GitHub
