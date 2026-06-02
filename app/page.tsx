@@ -20,8 +20,10 @@ export default function DashboardPage() {
           height: "100vh",
           overflow: "hidden",
           background:
-            "radial-gradient(circle at 18% 8%, rgba(59,130,246,0.18), transparent 32rem), radial-gradient(circle at 90% 20%, rgba(139,92,246,0.13), transparent 30rem), linear-gradient(135deg, #0b1020, #111827 52%, #0c1324)",
-        }}
+        //     "radial-gradient(circle at 18% 8%, rgba(59,130,246,0.18), transparent 32rem), radial-gradient(circle at 90% 20%, rgba(139,92,246,0.13), transparent 30rem), linear-gradient(135deg, #0b1020, #111827 52%, #0c1324)",
+        //
+        
+  "linear-gradient(135deg, #052e2b, #0f172a)" }}
         className="dashboard-root"
       >
         <Sidebar />
@@ -59,7 +61,8 @@ export default function DashboardPage() {
                 width: 36,
                 height: 36,
                 borderRadius: "50%",
-                background: "linear-gradient(135deg, #3b82f6, #8b5cf6)",
+                // background: "linear-gradient(135deg, #3b82f6, #8b5cf6)",
+                background: "#0f766e",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -90,7 +93,8 @@ export default function DashboardPage() {
               }}
             >
               <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                <BookMarked size={15} style={{ color: "var(--accent-purple)" }} />
+                {/* <BookMarked size={15} style={{ color: "var(--accent-purple)" }} /> */}
+                <BookMarked size={15} style={{ color: "#0f766e" }} />
                 <span
                   style={{
                     fontSize: 11,
